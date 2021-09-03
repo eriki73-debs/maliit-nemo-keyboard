@@ -1,0 +1,12 @@
+Source: maliit-nemo-keyboard
+Maintainer: Erik Inkinen <erik.inkinen@gmail.com>
+Section: libs
+Priority: optional
+Build-Depends: cmake
+Standards-Version: 4.5.0
+Homepage: https://wiki.maliit.org
+
+Package: maliit-nemo-keyboard
+Architecture: all
+Depends: maliit-framework, ${misc:Depends}, ${shlibs:Depends}
+Description: Contains the reference input method plugins, such as the Maliit Keyboard.
